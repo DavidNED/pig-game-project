@@ -21,8 +21,6 @@ const state = {
   endScore: 60,
 };
 
-window.s = state;
-
 function init() {
   dice.style.display = 'none';
   state.currentPlayer = 0;
