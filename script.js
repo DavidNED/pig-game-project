@@ -32,7 +32,7 @@ function init() {
   currentTwo.textContent = 0;
   scoreOne.textContent = 0;
   scoreTwo.textContent = 0;
-  console.log('Welcome to the app');
+  console.log('Welcome to the application');
 }
 
 // Reusable functions
