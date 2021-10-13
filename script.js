@@ -78,12 +78,12 @@ function clearInput() {
 }
 
 //------------------------------------------------------
-
+///icons/dice-${diceRoll}.png
 btnRoll.addEventListener('click', function () {
   if (state.isPlaying) {
     const diceRoll = Math.trunc(Math.random() * 6 + 1);
     dice.style.display = 'block';
-    dice.setAttribute('src', `./dice-${diceRoll}.png`);
+    dice.setAttribute('src', `./icons/dice-${diceRoll}.png`);
     state.currentScore += diceRoll;
 
     // Set content current
