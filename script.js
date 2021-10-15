@@ -150,7 +150,6 @@ btnSubmit.addEventListener('click', function (e) {
     state.totalScores.reduce((acc, cur) => acc + cur) === 0
   )
     state.endScore = +val;
-  console.log('Hey');
 
   clearInput();
 });
